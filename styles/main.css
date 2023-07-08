@@ -4,14 +4,14 @@ body {
     font-family: "lato', sans-serif;";
 }
 
-.section-titel{
+.section-titel {
     text-align: center;
     color: #181818;
     font-size: 35px;
     font-weight: 700;
 }
 
-.section-description{
+.section-description {
     color: #757575;
     text-align: center;
     font-size: 18px;
@@ -101,34 +101,46 @@ nav a {
 }
 
 /* Main Section Style */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 /* about section Style */
-.about{
+.about {
     padding: 130px;
     border-radius: 10px;
     background-color: #FFF8F3;
     margin: 130px 0px;
 }
 
-.about-info-container{
+.about-info-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
-.about-info{
+
+.about-info {
     text-align: center;
 }
 
 /* what i do section */
-#what-i-do-description{
+#what-i-do-description {
     padding: 30px 150px;
 }
-.skills-container{
+
+.skill {
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+}
+
+.skills-container {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 50px;
+    gap: 24px;
+}
+
+.skill-description {
+    text-align: justify;
+    color: #757575;
 }
